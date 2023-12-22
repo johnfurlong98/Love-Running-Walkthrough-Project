@@ -115,6 +115,45 @@ main{
     ;
 }
 
+/* Apply styles to the reasons div */
+#reasons {
+    padding: 0 20px 20px;
+    /* Breathing space at the sides and bottom */
+}
+
+/* Style the h2 in the reasons section */
+#reasons h2 {
+    margin-bottom: 20px;
+    /* Bottom margin of 20px */
+    text-align: center;
+    /* Center the text */
+    font-size: 1.5em;
+    /* Larger font size */
+}
+
+/* Style the divs inside benefits-physical and benefits-mental */
+#benefits-physical div,
+#benefits-mental div {
+    line-height: 1.5;
+    /* Line height for better spacing */
+    margin-bottom: 20px;
+    /* Bottom margin for better spacing */
+}
+
+/* Style paragraphs in the benefits div */
+#benefits p {
+    padding: 0 20px;
+    /* Left and right padding of 20px */
+}
+
+/* Style the hr under the headings */
+#benefits h3+hr {
+    border: 1px solid #333;
+    /* Border color same as text color */
+    margin: 5px 0;
+    /* Margin on top and bottom of 5px */
+}
+
 /* Footer*/
 #social-networks {
     text-align: center;
